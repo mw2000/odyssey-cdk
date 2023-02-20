@@ -13,8 +13,8 @@ on:
       - develop
 
 permissions:
-  id-token: write
-  contents: read
+  pull-requests: write
+  contents: write
 
 jobs:
   run-linters:
