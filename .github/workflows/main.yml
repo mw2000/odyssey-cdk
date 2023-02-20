@@ -1,4 +1,4 @@
-name: Everypass Deployment
+name: Odyssey Deployment
 
 # Triggers the action everty time there is a code push to the release branches
 on:
