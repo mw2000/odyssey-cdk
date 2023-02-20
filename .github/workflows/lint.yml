@@ -12,6 +12,10 @@ on:
       - qa
       - develop
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   run-linters:
     name: Run linters
